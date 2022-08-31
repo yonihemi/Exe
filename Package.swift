@@ -4,6 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Exe",
     dependencies: [
+        .executable(name: "exe", targets: ["Exe"]),
     ],
     targets: [
         .executableTarget(
