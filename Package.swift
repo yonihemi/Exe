@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "Exe",
-    dependencies: [
+    products: [
         .executable(name: "exe", targets: ["Exe"]),
     ],
     targets: [
