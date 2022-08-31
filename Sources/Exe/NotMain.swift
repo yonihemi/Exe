@@ -1,6 +1,6 @@
 @main
 struct App {
     static func main() {
-        print("Hello, world!")
+        print("Hello from https://github.com/yonihemi/Exe")
     }
 }
